@@ -1,0 +1,21 @@
+{
+  "name": "myg-cdm-downloader",
+  "version": "1.0.0",
+  "description": "Video downloader for MYG CDM",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.4.0",
+    "nodemon": "^2.0.15",
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "github:fent/node-ytdl-core#pull/1022/head"
+  }
+}
